@@ -1,0 +1,70 @@
+.header {
+  &__logo {
+    img {
+      width: 72px;
+      height: 72px;
+      object-fit: cover;
+    }
+    @include respond(phones) {
+      img {
+        width: 64px;
+        height: 64px;
+        object-fit: cover;
+      }
+    }
+    @include respond(phones-sm) {
+      img {
+        width: 58px;
+        height: 58px;
+        object-fit: cover;
+      }
+    }
+  }
+  @include respond(tablets) {
+    .input-group {
+      transform: translateX(30px);
+    }
+  }
+  @include respond(phones) {
+    .input-group {
+      transform: translateX(15px);
+    }
+  }
+  img.home {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+  }
+  .link-logo {
+    position: absolute;
+  }
+  .sticky-top {
+    position: fixed !important;
+    top: 0;
+  }
+  .collapse.navbar-collapse {
+    margin-left: 10%;
+  }
+  .container {
+    position: relative;
+  }
+}
+#menuIsMobile {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+
+  @include respond(tablets) {
+    & {
+      right: -40px;
+      top: 32px;
+    }
+  }
+  @include respond(phones) {
+    & {
+      right: -24px;
+      top: 32px;
+    }
+  }
+}

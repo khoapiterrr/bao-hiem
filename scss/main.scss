@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import './abstracts/_variables.scss';
+@import './abstracts/_mixins.scss';
+@import './abstracts/_functions.scss';
+@import './base/_base.scss';
+@import './base/_animations.scss';
+@import './base/_utils.scss';
+@import './layouts/_header';
+@import './layouts/_bhnt';
+@import './layouts/_footer';
+@import './layouts/_contact-us';
+@import './layouts/_products-section.scss';
+@import './layouts/_new-feeds.scss';

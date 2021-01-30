@@ -1,0 +1,86 @@
+.container {
+  position: relative;
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  @include respond(laptops) {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @include respond(tablets) {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @include respond(phones) {
+    width: 82%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @include respond(phones) {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.p-section {
+  padding: 100px 0;
+  @include respond(phones) {
+    padding: 50px 0;
+  }
+}
+.text-center {
+  text-align: center;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-brown {
+  color: $color-web;
+}
+.mb-4 {
+  margin-bottom: 4rem !important;
+  @include respond(phones) {
+    margin-bottom: 2rem !important;
+  }
+}
+.mb-2 {
+  margin-bottom: 2rem !important;
+}
+.mb-1 {
+  margin-bottom: 1rem !important;
+}
+.mt-2 {
+  margin-top: 2rem !important;
+}
+.mt-3 {
+  margin-top: 3rem !important;
+  @include respond(phones) {
+    margin-top: 1.5rem !important;
+  }
+}
+.mt-4 {
+  margin-top: 4rem !important;
+  @include respond(phones) {
+    margin-top: 2rem !important;
+  }
+}
+.py-60 {
+  padding: 60px 0;
+  @include respond(phones) {
+    padding: 30px 0;
+  }
+}
+
+.typography-heading {
+  font-size: 120%;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}

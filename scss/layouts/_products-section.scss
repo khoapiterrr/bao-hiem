@@ -1,0 +1,54 @@
+.products-section {
+  background-color: #f4f4f4;
+  .product-box {
+    background-color: #eeefff;
+    box-shadow: 3px 5px 10px #e0e0e0;
+    width: 90%;
+    height: 450px;
+    margin-bottom: 1rem;
+    @include respond(tablets) {
+      & {
+        height: 500px;
+      }
+    }
+    @include respond(phones) {
+      & {
+        height: 400px;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+      }
+    }
+    h3 {
+      @extend .text-center;
+      padding-top: 30px;
+      padding-bottom: 10px;
+      background-color: #265077;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      margin-bottom: 15px;
+      color: #fff;
+    }
+  }
+  .product-price {
+    @extend .text-center;
+    color: #265077;
+    font-weight: 300;
+    margin: 0 10%;
+  }
+  .product-price span {
+    font-size: 80%;
+  }
+  .product-box ul li {
+    margin-left: 5%;
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    i.fas {
+      margin-right: 5px;
+    }
+  }
+  .product-box .btn {
+    margin-left: 20%;
+  }
+}
