@@ -37,6 +37,7 @@
   }
   .link-logo {
     position: absolute;
+    z-index: 1000;
   }
   .sticky-top {
     position: fixed !important;
