@@ -14,9 +14,11 @@ body {
   font-size: 14px;
 }
 html body {
-  scroll-behavior: smooth;
   font-family: Lato, sans-serif;
   text-rendering: optimizeLegibility;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 .title-header {

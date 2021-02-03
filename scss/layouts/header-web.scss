@@ -25,7 +25,17 @@
       padding-left: 0;
     }
   }
+  //hover
 }
+
+// .dropdown:hover .dropdown-menu {
+//   display: block !important;
+// }
+
+// .dropdown > .dropdown-toggle:active {
+//   /*Without this, clicking will make it sticky*/
+//   pointer-events: none !important;
+// }
 .border-r {
   border-right: 1px solid rgba(0, 0, 0, 0.125);
 }
