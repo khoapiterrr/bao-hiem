@@ -49,8 +49,25 @@
   .container {
     position: relative;
   }
-  .dropdown:hover > .dropdown-menu {
-    display: block !important;
+
+  .dropdown--hover:hover .dropdown__content {
+    display: block;
+  }
+  .dropdown__content:hover {
+    display: block;
+  }
+
+  .dropdown__content {
+    position: absolute;
+    top: 85%;
+    background-color: #fff;
+    left: 0;
+    z-index: 999;
+    border: 1px solid #eee;
+    border-top: 0;
+    display: none;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
   }
 }
 #menuIsMobile {
